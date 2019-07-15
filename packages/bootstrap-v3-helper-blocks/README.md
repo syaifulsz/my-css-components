@@ -4,6 +4,8 @@ This is a responsive helper for adding width to inline block. The widths are cal
 
 These helper supports Bootstrap 3 responsive utilities (xs, sm, md, lg). Additional media queries is configurable and can be extended depending on your project requirements.
 
+Test
+
 ## Getting Started
 
 [Download](https://github.com/syaifulsz/my-css-components/releases) latest version or install by bower:
