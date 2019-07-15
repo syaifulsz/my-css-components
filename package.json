@@ -1,0 +1,26 @@
+{
+  "name": "@syaifulsz/my-css-components",
+  "version": "0.0.0",
+  "description": "My CSS components",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/syaifulsz/my-css-components.git"
+  },
+  "keywords": [
+    "CSS",
+    "Components"
+  ],
+  "author": "Syaiful Shah Zinan <i.works@live.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syaifulsz/my-css-components/issues"
+  },
+  "homepage": "https://github.com/syaifulsz/my-css-components#readme",
+  "devDependencies": {
+    "lerna": "^3.15.0"
+  }
+}

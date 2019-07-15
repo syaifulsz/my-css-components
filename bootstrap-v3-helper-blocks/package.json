@@ -1,0 +1,23 @@
+{
+    "name": "@syaifulsz/bootstrap-v3-helper-margin-padding",
+    "version": "0.0.0",
+    "description": "A Bootstrap 3 responsive helper for adding width to inline block. The widths are calculated based on element parent container and are based on 12 grid columns.",
+    "main": "dist/bootstrap-helper-blocks.min.css",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/syaifulsz/my-css-components.git"
+    },
+    "author": "Syaiful Shah Zinan <i.works@live.com>",
+    "license": "ISC",
+    "homepage": "https://github.com/syaifulsz/my-css-components#readme",
+    "dependencies": {
+        "grunt": "^1.0.1",
+        "grunt-cli": "^1.2.0",
+        "grunt-contrib-clean": "^1.0.0",
+        "grunt-contrib-sass": "^1.0.0",
+        "grunt-contrib-watch": "^1.0.0"
+    }
+}

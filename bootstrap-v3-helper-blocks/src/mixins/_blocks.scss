@@ -1,0 +1,45 @@
+/*!*
+ * Bootstrap helper for blocks
+ * -----------------------------------------------------------------------------
+ * This is a responsive helper for adding width to inline block. The widths are
+ * calculated based on element parent container and are based on 12 grid
+ * columns.
+ *
+ * These helper supports Bootstrap 3 responsive utilities (xs, sm, md, lg).
+ * Additional media queries is configurable and can be extended depending on
+ * your project requirements.
+ *
+ * Example usage:
+ * -----------------------------------------------------------------------------
+ * .block, .block--1-5, .block--2-3
+ *
+ * Example usage with responsive media query:
+ * -----------------------------------------------------------------------------
+ * .block-xs, .block-sm--1-5, .block-md--2-5
+ *
+ *
+ * @author: Syaiful Shah Zinan (i.works@live.com)
+ * @link: https://github.com/syaifulsz/my-css-components
+ * @since: 0.0.1
+ */
+
+@mixin _make-block( $prefix: 'block', $grid: 12, $mode: null ) {
+    @for $i from 1 through $grid {
+        @if ( $i != $grid ) {
+            .#{$prefix}#{$mode}--#{$i}-#{$grid} {
+                width: percentage($i/$grid);
+            }
+        }
+    }
+}
+
+
+@mixin make-block( $prefix: 'block', $grid: 12, $mode: null ) {
+    .#{$prefix}#{$mode} {
+        width: 100%;
+    }
+
+    @for $i from (($grid + 1) - 1) through 1 {
+        @include _make-block( $prefix, $i, $mode );
+    }
+}
