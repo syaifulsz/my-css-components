@@ -1,6 +1,6 @@
 {
     "name": "@syaifulsz/bootstrap-v3-helper-blocks",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "A Bootstrap 3 responsive helper for adding width to inline block. The widths are calculated based on element parent container and are based on 12 grid columns.",
     "main": "dist/bootstrap-helper-blocks.min.css",
     "scripts": {
