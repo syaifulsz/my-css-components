@@ -1,4 +1,4 @@
-# Bootstrap Helper: Blocks
+# Bootstrap v3 Helper: Blocks
 
 This is a responsive helper for adding width to inline block. The widths are calculated based on element parent container and are based on 12 grid columns.
 
