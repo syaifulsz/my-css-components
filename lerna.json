@@ -1,6 +1,19 @@
 {
-  "packages": [
-    "packages/*"
-  ],
-  "version": "0.0.1"
+    "packages": [
+        "packages/*"
+    ],
+    "version": "independent",
+    "publishConfig": {
+        "access": "public"
+    },
+    "command": {
+        "publish": {
+            "registry": "https://registry.npmjs.org/"
+        },
+        "version": {
+            "push": false,
+            "allowBranch": "master",
+            "message": "chore(release): publish"
+        }
+    }
 }

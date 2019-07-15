@@ -19,5 +19,6 @@
         "grunt-contrib-clean": "^1.0.0",
         "grunt-contrib-sass": "^1.0.0",
         "grunt-contrib-watch": "^1.0.0"
-    }
+    },
+    "gitHead": "d6eadc182010e7539ab06ac361edcb0299198874"
 }
