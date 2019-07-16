@@ -1,0 +1,27 @@
+/*!*
+ * IUF Demo: Core
+ * -----------------------------------------------------------------------------
+ * A description of IUF component; Core.
+ *
+ * @author: Syaiful Shah Zinan (i.works@live.com)
+ * @link: https://github.com/syaifulsz/my-css-components
+ * @since: 1.0.0
+ */
+
+// variables
+$color-one: #9D44B5 !default;
+$color-two: #B5446E !default;
+$color-three: #525252 !default;
+$color-four: #BADEFC !default;
+$color-five: #0AFFED !default;
+$theme-colors: () !default;
+$theme-colors: map-merge(
+    (
+        "one": $color-one,
+        "two": $color-two,
+        "three": $color-three,
+        "four": $color-four,
+        "five": $color-five
+    ),
+    $theme-colors
+);

@@ -1,0 +1,22 @@
+{
+    "name": "@syaifulsz/iuf-demo-core",
+    "version": "1.0.0",
+    "private": false,
+    "description": "A description of IUF component; Core.",
+    "main": "dist/iuf-demo-button.min.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/syaifulsz/my-css-components.git"
+    },
+    "author": "Syaiful Shah Zinan <i.works@live.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/syaifulsz/uif-demo-1/issues"
+    },
+    "homepage": "https://github.com/syaifulsz/my-css-components#readme",
+    "dependencies": {
+    }
+}
