@@ -1,6 +1,6 @@
 # IUF Demo: Core
 
-A description of IUF component; Core. This package contains default variables for IUF components.
+A description of IUF component; Core. This package contains default variables for IUF components. +1
 
 ## Getting Started
 

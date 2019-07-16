@@ -1,6 +1,6 @@
 # IUF Demo: Typo
 
-A description of IUF component; Typo.
+A description of IUF component; Typo. +1
 
 ## Getting Started
 

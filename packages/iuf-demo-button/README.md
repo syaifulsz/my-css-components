@@ -1,6 +1,6 @@
 # IUF Demo: Button
 
-A description of IUF component; Button. Something (+1 Patch)
+A description of IUF component; Button. Something (+1 Patch) +1
 
 ![Screenshot](screenshot.png)
 
