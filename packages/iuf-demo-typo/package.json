@@ -1,6 +1,6 @@
 {
     "name": "@syaifulsz/iuf-demo-typo",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "A description of IUF component; Button.",
     "main": "dist/iuf-demo-typo.min.css",
     "publishConfig": {
