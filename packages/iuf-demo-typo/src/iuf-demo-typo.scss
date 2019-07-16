@@ -1,19 +1,18 @@
 /*!*
- * IUF Demo: Button
+ * IUF Demo: Typo
  * -----------------------------------------------------------------------------
- * A description of IUF component; Button.
+ * A description of IUF component; Typo.
  *
  * @author: Syaiful Shah Zinan (i.works@live.com)
  * @link: https://github.com/syaifulsz/my-css-components
  * @since: 1.0.0
- *
- * @TODO Split sub-components for Mixins, Functions and Variables
  */
 
 @import '../node_modules/@syaifulsz/iuf-demo-core/src/variables';
 
 body {
-    font-family: Arial;
+    font-family: "Helvetica", Arial, sans-serif;
+    font-size: 14px;
 }
 
 @each $key, $value in $theme-colors {
