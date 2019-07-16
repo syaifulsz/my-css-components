@@ -1,7 +1,10 @@
 {
     "name": "@syaifulsz/iuf-demo-core",
-    "version": "1.0.0",
+    "version": "0.0.0",
     "private": false,
+    "publishConfig": {
+        "access": "public"
+    },
     "description": "A description of IUF component; Core.",
     "main": "dist/iuf-demo-button.min.js",
     "scripts": {
