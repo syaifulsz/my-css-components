@@ -1,0 +1,25 @@
+/*!*
+ * IUF Demo: Button
+ * -----------------------------------------------------------------------------
+ * A description of IUF component; Button.
+ *
+ * @author: Syaiful Shah Zinan (i.works@live.com)
+ * @link: https://github.com/syaifulsz/my-css-components
+ * @since: 1.0.0
+ *
+ * @TODO Split sub-components for Mixins, Functions and Variables
+ */
+
+@import '../node_modules/@syaifulsz/iuf-demo-core/src/variables';
+
+body {
+    font-family: Arial;
+}
+
+@each $key, $value in $theme-colors {
+
+    .text-#{$key} {
+        font-weight: bold;
+        color: $value;
+    }
+}

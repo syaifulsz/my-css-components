@@ -1,20 +1,19 @@
-# IUF Demo: Typo
+# IUF Demo: Button
 
-A description of IUF component; Typo.
-
+A description of IUF component; Button. Something (+1 Patch)
 
 ## Getting Started
 
 See [NPM Package](https://www.npmjs.com/package/@syaifulsz/iuf-demo-button) for latest version or install by npm:
 
 ```sh
-npm install @syaifulsz/iuf-demo-typo
+npm install @syaifulsz/iuf-demo-button
 ```
 
 Include this stylesheet code into your site:
 
 ```html
-<link rel="stylesheet" href="dist/iuf-demo-typo.min.css" />
+<link rel="stylesheet" href="dist/iuf-demo-button.min.css" />
 ```
 
 ## Usage:
@@ -22,11 +21,21 @@ Include this stylesheet code into your site:
 Example with `<a>` tag:
 
 ```html
-<span class="text-one"></span>
-<span class="text-two"></span>
-<span class="text-three"></span>
-<span class="text-four"></span>
-<span class="text-five"></span>
+<a href="#" class="iuf-demo-button iuf-demo-button--one">Button Style 1</a>
+<a href="#" class="iuf-demo-button iuf-demo-button--two">Button Style 2</a>
+<a href="#" class="iuf-demo-button iuf-demo-button--three">Button Style 3</a>
+<a href="#" class="iuf-demo-button iuf-demo-button--four">Button Style 4</a>
+<a href="#" class="iuf-demo-button iuf-demo-button--five">Button Style 5</a>
+```
+
+Example with `<button>` tag:
+
+```html
+<button type="button" class="iuf-demo-button iuf-demo-button--one">Button Style 1</button>
+<button type="button" class="iuf-demo-button iuf-demo-button--two">Button Style 2</button>
+<button type="button" class="iuf-demo-button iuf-demo-button--three">Button Style 3</button>
+<button type="button" class="iuf-demo-button iuf-demo-button--four">Button Style 4</button>
+<button type="button" class="iuf-demo-button iuf-demo-button--five">Button Style 5</button>
 ```
 
 ## Development
