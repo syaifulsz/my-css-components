@@ -1,6 +1,6 @@
 {
     "name": "@syaifulsz/iuf-demo-button",
-    "version": "1.0.0",
+    "version": "0.0.0",
     "description": "A description of IUF component; Button.",
     "main": "dist/iuf-demo-button.min.js",
     "scripts": {
