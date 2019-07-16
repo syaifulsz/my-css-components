@@ -2,6 +2,8 @@
 
 A description of IUF component; Button. Something (+1 Patch)
 
+![Screenshot](screenshot.png)
+
 ## Getting Started
 
 See [NPM Package](https://www.npmjs.com/package/@syaifulsz/iuf-demo-button) for latest version or install by npm:
