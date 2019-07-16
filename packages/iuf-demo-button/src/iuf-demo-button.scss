@@ -1,0 +1,62 @@
+/*!*
+ * IUF Demo: Button
+ * -----------------------------------------------------------------------------
+ * A description of IUF component; Button.
+ *
+ * @author: Syaiful Shah Zinan (i.works@live.com)
+ * @link: https://github.com/syaifulsz/my-css-components
+ * @since: 1.0.0
+ *
+ * @TODO Split sub-components for Mixins, Functions and Variables
+ */
+
+// variables
+$color-one: #9D44B5;
+$color-two: #B5446E;
+$color-three: #525252;
+$color-four: #BADEFC;
+$color-five: #0AFFED;
+$theme-colors: (
+    "one": $color-one,
+    "two": $color-two,
+    "three": $color-three,
+    "four": $color-four,
+    "five": $color-five,
+) !default;
+
+// functions
+@function color-yiq( $color ) {
+    $r: red( $color );
+    $g: green( $color );
+    $b: blue( $color );
+
+    $yiq: (($r * 299) + ($g * 587) + ($b * 114)) / 1000;
+
+    @if ( $yiq >= 150 ) {
+        @return #000000;
+    }
+
+    @return #FFFFFF;
+}
+
+// mixins
+@mixin iuf-demo-button( $background-color: '#FFF' ) {
+    color: color-yiq( $background-color );
+    background-color: $background-color;
+}
+
+.iuf-demo-button {
+    border-radius: 4px;
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 35px;
+    line-height: 35px;
+}
+
+@each $key, $value in $theme-colors {
+
+    .iuf-demo-button--#{$key} {
+        @include iuf-demo-button( $value );
+    }
+}
