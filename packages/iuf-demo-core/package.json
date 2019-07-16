@@ -1,6 +1,6 @@
 {
     "name": "@syaifulsz/iuf-demo-core",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "private": false,
     "publishConfig": {
         "access": "public"
@@ -19,7 +19,5 @@
     "bugs": {
         "url": "https://github.com/syaifulsz/uif-demo-1/issues"
     },
-    "homepage": "https://github.com/syaifulsz/my-css-components#readme",
-    "dependencies": {
-    }
+    "homepage": "https://github.com/syaifulsz/my-css-components#readme"
 }
