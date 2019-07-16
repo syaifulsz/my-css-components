@@ -6,7 +6,7 @@
         "access": "public"
     },
     "description": "A description of IUF component; Core.",
-    "main": "dist/iuf-demo-button.min.js",
+    "main": "src/variables.scss",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },

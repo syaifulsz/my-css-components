@@ -7,7 +7,7 @@ A description of IUF component; Core. This package contains default variables fo
 See [NPM Package](https://www.npmjs.com/package/@syaifulsz/iuf-demo-core) for latest version or install by npm:
 
 ```sh
-npm install iuf-demo-core
+npm install @syaifulsz/iuf-demo-core
 ```
 
 ## Usage:

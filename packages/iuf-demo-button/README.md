@@ -7,7 +7,7 @@ A description of IUF component; Button.
 See [NPM Package](https://www.npmjs.com/package/@syaifulsz/iuf-demo-button) for latest version or install by npm:
 
 ```sh
-npm install iuf-demo-button
+npm install @syaifulsz/iuf-demo-button
 ```
 
 Include this stylesheet code into your site:

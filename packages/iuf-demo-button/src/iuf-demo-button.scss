@@ -10,19 +10,7 @@
  * @TODO Split sub-components for Mixins, Functions and Variables
  */
 
-// variables
-$color-one: #9D44B5;
-$color-two: #B5446E;
-$color-three: #525252;
-$color-four: #BADEFC;
-$color-five: #0AFFED;
-$theme-colors: (
-    "one": $color-one,
-    "two": $color-two,
-    "three": $color-three,
-    "four": $color-four,
-    "five": $color-five,
-) !default;
+@import '../node_modules/@syaifulsz/iuf-demo-core/src/variables';
 
 // functions
 @function color-yiq( $color ) {
