@@ -1,6 +1,6 @@
 {
-    "name": "@icarasia/iuf-demo-button-test",
-    "version": "1.0.0",
+    "name": "@icar-random/iuf-demo-button-test",
+    "version": "0.0.0",
     "description": "A description of IUF component; Button.",
     "main": "dist/iuf-demo-button.min.css",
     "publishConfig": {
