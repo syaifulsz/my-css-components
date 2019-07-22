@@ -2,7 +2,7 @@
 
 Add a new style to Bootstrap v4 Button **Raised** `.btn-raised-primary`.
 
-![Bootstrap v4 Extend: Button Raised](screenshot.png)
+![Bootstrap v4 Extend: Button Raised](https://raw.githubusercontent.com/syaifulsz/my-css-components/master/packages/bootstrap-v4-extend-button-raised/screenshot.png)
 
 ## Getting Started
 
@@ -84,3 +84,11 @@ All notable changes to this project will be documented in this file. **For now, 
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [1.0.3] - 2019-07-22
+### Changed
+- Remove `grunt-contrib-sass`
+- Add `grunt-sass`
+- Add `includePaths` parameter to grunt SASS
+- Update description in `package.json`
+- Change absolute path for screenshot image in README (fix issue screenshot not showing on NPM page)

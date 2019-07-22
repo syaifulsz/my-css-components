@@ -1,7 +1,7 @@
 {
     "name": "@syaifulsz/bootstrap-v4-extend-button-raised",
     "version": "1.0.2",
-    "description": "A description of IUF component; Button.",
+    "description": "Add a new style to Bootstrap v4 Button Raised.",
     "main": "dist/bootstrap-v4-extend-button-raised.min.css",
     "publishConfig": {
         "access": "public"
