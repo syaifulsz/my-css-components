@@ -16,7 +16,8 @@
     @include button-variant( $color, $color );
     border: 0;
 
-    box-shadow: inset 0 -4px 0 darken( $color, 15% ), 0 1px 4px rgba( 0, 0, 0, 0.35 ) !important;
+    // box-shadow: inset 0 -4px 0 darken( $color, 15% ), 0 1px 4px rgba( 0, 0, 0, 0.35 ) !important;
+    box-shadow: inset 0 -4px 0 darken( $color, 15% ) !important;
     padding-bottom: .75rem;
 
     @if ( color-yiq( $color ) == #fff ) {
