@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../dist/css/modal-drawer.min.css">
+    </head>
+    <body>
+        <div class="container py-5">
+
+            <div class="jumbotron">
+                <h1 class="display-4">Modal Drawer</h1>
+                <p class="text-muted small">Bootstrap v4 Extend</p>
+                <p class="lead">Add new Bootstrap v4 component Modal Drawer. An extended Modal to stick and appear from sides.</p>
+                <hr class="my-4">
+                <p>You can download via NPM or clone from Github.</p>
+                <a class="btn btn-primary btn-lg" href="https://www.npmjs.com/package/@syaifulsz/bootstrap-v4-extend-modal-drawer" target="_blank" role="button">NPM Package</a>
+            </div>
+
+            <hr />
+
+            <div class="h6 mb-3">Default Usage</div>
+
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#drawer-default">
+                Launch Default Drawer
+            </button>
+            <div class="modal fade modal-drawer" id="drawer-default" tabindex="-1" role="dialog" aria-labelledby="drawer-default-label" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="drawer-default-label">Default Drawer</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#drawer-right">
+                Launch Right Drawer
+            </button>
+            <div class="modal fade modal-drawer modal-drawer--right" id="drawer-right" tabindex="-1" role="dialog" aria-labelledby="drawer-right-label" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="drawer-right-label">Right Drawer</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="mt-4" />
+
+            <div class="h6 mb-3">Drawer Menu</div>
+
+            <p>Combine with Navbar.</p>
+
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#example-drawer-menu">
+                Menu
+            </button>
+
+            <div class="modal fade modal-drawer" id="example-drawer-menu" tabindex="-1" role="dialog" aria-labelledby="example-drawer-menu-label" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="h5 modal-title" id="example-drawer-menu-label">Menu</div>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body p-0 list-group list-group-flush">
+                            <a href="#" class="list-group-item list-group-item-action">Home</a>
+                            <a href="#" class="list-group-item list-group-item-action">About</a>
+                            <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center" data-toggle="modal" data-target="#example-drawer-menu-products">
+                                Products <span>&rsaquo;</span>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action">Services</a>
+                            <a href="#" class="list-group-item list-group-item-action">Store</a>
+                            <a href="#" class="list-group-item list-group-item-action">Contact</a>
+                            <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Partner</a>
+                        </div>
+                        <div class="modal-footer small text-muted">
+                            @syaifulsz. Copyright &copy; 2019.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade modal-drawer modal-drawer--level-1" id="example-drawer-menu-products" tabindex="-1" role="dialog" aria-labelledby="example-drawer-menu-products-label" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="h5 modal-title" id="example-drawer-menu-products-label">Product</div>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body p-0 list-group list-group-flush">
+                            <a href="#" class="list-group-item list-group-item-action">Product 1</a>
+                            <a href="#" class="list-group-item list-group-item-action">Product 2</a>
+                            <a href="#" class="list-group-item list-group-item-action">Product 3</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#example-drawer-menu-right">
+                Menu Right
+            </button>
+
+            <div class="modal fade modal-drawer modal-drawer--right" id="example-drawer-menu-right" tabindex="-1" role="dialog" aria-labelledby="example-drawer-menu-right-label" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="h5 modal-title" id="example-drawer-menu-right-label">Menu</div>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body p-0 list-group list-group-flush">
+                            <a href="#" class="list-group-item list-group-item-action">Home</a>
+                            <a href="#" class="list-group-item list-group-item-action">About</a>
+                            <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center" data-toggle="modal" data-target="#example-drawer-menu-right-products">
+                                Products <span>&rsaquo;</span>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action">Services</a>
+                            <a href="#" class="list-group-item list-group-item-action">Store</a>
+                            <a href="#" class="list-group-item list-group-item-action">Contact</a>
+                            <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Partner</a>
+                        </div>
+                        <div class="modal-footer small text-muted">
+                            @syaifulsz. Copyright &copy; 2019.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade modal-drawer modal-drawer--right modal-drawer--level-1" id="example-drawer-menu-right-products" tabindex="-1" role="dialog" aria-labelledby="example-drawer-menu-right-products-label" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="h5 modal-title" id="example-drawer-menu-right-products-label">Product</div>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body p-0 list-group list-group-flush">
+                            <a href="#" class="list-group-item list-group-item-action">Product 1</a>
+                            <a href="#" class="list-group-item list-group-item-action">Product 2</a>
+                            <a href="#" class="list-group-item list-group-item-action">Product 3</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="../node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+            // $( '#exampleModal' ).modal( 'show' );
+        </script>
+    </body>
+</html>

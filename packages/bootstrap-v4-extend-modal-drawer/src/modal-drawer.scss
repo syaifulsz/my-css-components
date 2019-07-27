@@ -1,0 +1,99 @@
+/*!*
+ * Bootstrap v4 Extend: Modal Drawer
+ * -----------------------------------------------------------------------------
+ * Add new Bootstrap v4 component Modal Drawer. An extended Modal to stick and appear from sides.
+ *
+ * @author: Syaiful Shah Zinan (i.works@live.com)
+ * @link: https://github.com/syaifulsz/my-css-components
+ * @since: 1.0.0
+ */
+
+@import 'bootstrap/scss/mixins';
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+
+.modal-drawer {
+    @include box-shadow( $box-shadow-lg );
+
+    &.modal {
+
+        &.fade {
+
+            .modal-dialog {
+                transform: translate3d( -300px, 0, 0 );
+            }
+        }
+
+        &.show {
+
+            .modal-dialog {
+                transform: translate3d( 0, 0, 0 );
+            }
+        }
+    }
+
+    &.modal-drawer--level-1 {
+        background-color: rgba( 0, 0, 0, 0.25 );
+
+        &.fade {
+
+            .modal-dialog {
+                transform: translate3d( -260px, 0, 0 );
+            }
+        }
+
+        &.show {
+
+            .modal-dialog {
+                transform: translate3d( 0, 0, 0 );
+            }
+        }
+
+        .modal-dialog {
+            @include box-shadow( $box-shadow-lg );
+            width: 260px;
+        }
+    }
+
+    .modal-dialog {
+        background-color: #FFF;
+        width: 300px;
+        position: absolute;
+        left: 0;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .modal-content {
+        height: 100%;
+        border: 0;
+        border-radius: 0;
+        background: none;
+    }
+
+    &.modal-drawer--right {
+
+        &.modal {
+
+            &.fade {
+
+                .modal-dialog {
+                    transform: translate3d( 300px, 0, 0 );
+                }
+            }
+
+            &.show {
+
+                .modal-dialog {
+                    transform: translate3d( 0, 0, 0 );
+                }
+            }
+        }
+
+        .modal-dialog {
+            left: auto;
+            right: 0;
+        }
+    }
+}
