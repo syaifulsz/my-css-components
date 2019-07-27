@@ -1,6 +1,6 @@
 {
     "name": "@syaifulsz/bootstrap-v4-extend-modal-drawer",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "Add new Bootstrap v4 component Modal Drawer. An extended Modal to stick and appear from sides.",
     "main": "dist/css/modal-drawer.min.css",
     "publishConfig": {
